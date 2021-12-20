@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: grey;
+}
+.container{
+    max-width: 1140px;
+    margin: 0 auto;
+    background-color: lightgray;
+}
+.header{
+    background-color: white;
+    width: 100vw;
+    position: relative;
+    margin-left: -50vw;
+    left: 50%;
+    min-height: 10vh;
+    display: flex;
+    justify-content: center;
+}
+.main{
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+}
+.footer{
+    background-color: black;
+    color: white;
+    width: 100vw;
+    position: relative;
+    margin-left: -50vw;
+    left: 50%;
+    min-height: 10vh;
+    display: flex;
+    justify-content: center;
+}
